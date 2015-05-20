@@ -1,0 +1,71 @@
+Matthew Brooker, 541670, mbrooker@cs.otago.ac.nz
+
+1.
+I have chosen the New World Supermarket for my miniworld.
+My database will keep track of employees, departments, customers
+and products.
+The supermarket is organized into departments. Each department has
+a unique name, a unique number, a contact number and an employee
+who manages the department. The start date of when that employee begins
+managing the department is also recorded, as is the number of employees
+in each department.
+
+Each department has a number of products, each with their own
+name, unique ID number, price, aisle and quantity.
+
+The database will keep track of customers, including
+their name, address, sex, ssn and contact number..
+
+Employees have their name, ird number (Social Security number or Ssn),
+address, salary, sex, birth date stored. An employee is assigned to one
+department. The number of hours they work per week is also recorded.
+Supervisors are also recorded.
+
+Each customer's shopping list is recorded as a weak entity type (as customer
+and product both need to exist for there to be a shopping list). Shopping lists
+include the ssn number of a customer, multivalued key ProductID to identify
+products and Price to record many products for each customer. Total number
+of purchased products for the whole list is recorded. The total bill is
+calculated as a derived attribute.
+
+2. EMPLOYEE
+   DEPARTMENT
+   CUSTOMER
+   SHOPPING_LIST (Weak entity)
+   PRODUCT
+   
+
+3. WORKS_FOR
+   - N:1 relationship.
+   - An employee can work for only one department, while a
+     department can have many employees.
+   - Both total participation.
+
+   MANAGES
+   - 1:1 relationship.
+   - One employee can manage only one department, and one department
+     is only managed by one employee.
+   - Has Start_date attribute.
+   - Department is total participation, employee is partial.
+
+   SUPERVISION
+   - N:1
+   - It's a supermarket where supervisors can supervise multiple
+     employees, but an employee can only have one supervisor.
+   - Both are partial participation.
+
+   HAS
+   - 1:N
+   - A customer can have only one shopping list and a shopping list can
+     only have one customer.
+   - Both total participation.  
+
+   FOUND_IN
+   - 1:N
+   - A department can have many products, while a product can have
+     only one department.
+   - Both total participation.   
+
+   
+
+   

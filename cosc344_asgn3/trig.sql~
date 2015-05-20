@@ -1,0 +1,14 @@
+
+CREATE OR REPLACE TRIGGER bill
+AFTER INSERT OR UPDATE OR DELETE OF shopping_date ON shopping_list
+ FOR EACH ROW
+ BEGIN
+ IF INSERTING THEN
+     UPDATE shopping_list
+     SET total_bill = quantity * price
+     
+END IF;
+   
+
+END;
+/

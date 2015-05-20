@@ -1,0 +1,19 @@
+I have chosen the New World Supermarket for my miniworld.
+My database will keep track of employees, departments, customers
+and products.
+The supermarket is organized into departments. Each department has
+a unique name, a unique number and an employee who manages the
+department. The start date of when that employee begins
+managing the department is also recorded.
+
+Each department has a number of products, each with their own unique
+name, unique number, and a certain aisle number.
+
+The database will keep track of customers and their purchases, including
+their name, address, sex, ssn and birthday.
+
+Employees have their name, ird number (Social Security number or Ssn),
+address, salary, sex, birthday stored. An employee is assigned to one
+department. The number of hours they work per week is also recorded.
+Supervisors are also recorded.
+

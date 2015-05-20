@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="70cm" height="36cm" viewBox="73 7 1384 707" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #e5e5e5" x="212" y="172" width="101.95" height="41.1667"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="212" y="172" width="101.95" height="41.1667"/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="262.975" y="194.7">EMPLOYEE</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="220.5" cy="86" rx="35.5" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="220.5" cy="86" rx="35.5" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="220.5" y="87.6">Name</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="302.45" cy="26" rx="37.45" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="302.45" cy="26" rx="37.45" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="302.45" y="27.6">Lname</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="219.95" cy="28" rx="33.95" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="219.95" cy="28" rx="33.95" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="219.95" y="29.6">Minit</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="137.7" cy="27" rx="37.7" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="137.7" cy="27" rx="37.7" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="137.7" y="28.6">Fname</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="133.125" cy="85" rx="35.125" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="133.125" cy="85" rx="35.125" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="133.125" y="86.6">Bdate</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="302.775" cy="86" rx="40.775" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="302.775" cy="86" rx="40.775" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="302.775" y="87.6">Address</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="386.725" cy="87" rx="35.725" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="386.725" cy="87" rx="35.725" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="386.725" y="88.6">Salary</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="135.025" cy="137" rx="30.025" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="135.025" cy="137" rx="30.025" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="135.025" y="138.6">SSN</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="125" y1="145" x2="145.05" y2="145"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="388.8" cy="132" rx="28.8" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="388.8" cy="132" rx="28.8" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="388.8" y="133.6">Sex</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="159.85" y1="148.288" x2="212" y2="172"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="365.077" y1="143.422" x2="307.763" y2="171.018"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="295.793" y1="104.696" x2="271.03" y2="171.012"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="227.894" y1="104.553" x2="254.378" y2="171.012"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="367.804" y1="103.143" x2="288.263" y2="171.008"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="152.376" y1="100.95" x2="236.948" y2="171.019"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="137.7" y1="45" x2="194.211" y2="72.9823"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="302.45" y1="44" x2="246.359" y2="72.7468"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="219.95" y1="46" x2="220.239" y2="67.0059"/>
+  <g>
+    <rect style="fill: #e5e5e5" x="1170" y="168.5" width="123.35" height="41.1667"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1170" y="168.5" width="123.35" height="41.1667"/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1231.67" y="191.2">DEPARTMENT</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1320.5" cy="128.5" rx="35.5" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1320.5" cy="128.5" rx="35.5" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1320.5" y="130.1">Name</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1305" y1="136.5" x2="1336" y2="136.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1320.4" cy="261.5" rx="41.4" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1320.4" cy="261.5" rx="41.4" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1320.4" y="263.1">Number</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1299" y1="269.5" x2="1341.8" y2="269.5"/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1298.5" y1="143.505" x2="1263.29" y2="167.518"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1300.16" y1="244.978" x2="1258.11" y2="210.662"/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1055.3" cy="190.5" rx="81.3" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" cx="1055.3" cy="190.5" rx="81.3" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1055.3" y="192.1">Number_of_employees</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1170" y1="189.083" x2="1137.47" y2="189.485"/>
+  <g>
+    <polygon style="fill: #e5e5e5" points="559,89.975 623.125,51.5 687.25,89.975 623.125,128.45 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="559,89.975 623.125,51.5 687.25,89.975 623.125,128.45 "/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:end;font-family:Carlito;font-style:normal;font-weight:normal" x="553" y="83.975">N</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:start;font-family:Carlito;font-style:normal;font-weight:normal" x="693.25" y="83.975">1</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="623.125" y="92.0917">WORKS_FOR</text>
+  </g>
+  <g>
+    <polygon style="fill: #e5e5e5" points="557,250.98 612.8,217.5 668.6,250.98 612.8,284.46 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="557,250.98 612.8,217.5 668.6,250.98 612.8,284.46 "/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:end;font-family:Carlito;font-style:normal;font-weight:normal" x="551" y="244.98">1</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:start;font-family:Carlito;font-style:normal;font-weight:normal" x="674.6" y="244.98">1</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="612.8" y="253.097">MANAGES</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="313.95,190.083 433.975,190.083 433.975,87.475 559,87.475 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="313.95,195.083 438.975,195.083 438.975,92.475 559,92.475 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="689.75,89.975 689.75,126.737 1234.17,126.737 1234.17,168.5 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="684.75,89.975 684.75,131.738 1229.17,131.738 1229.17,168.5 "/>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="313.95,213.167 434.974,213.167 434.974,250.98 555.999,250.98 "/>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="671.1,250.98 671.1,249 1176.5,249 1176.5,208.667 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="666.1,250.98 666.1,254 1181.5,254 1181.5,208.667 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="549.8" cy="182.5" rx="46.8" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="549.8" cy="182.5" rx="46.8" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="549.8" y="184.1">start_date</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="594.452" y1="229.624" x2="556" y2="200.5"/>
+  <g>
+    <polygon style="fill: #e5e5e5" points="196,365.325 262.375,325.5 328.75,365.325 262.375,405.15 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="196,365.325 262.375,325.5 328.75,365.325 262.375,405.15 "/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:end;font-family:Carlito;font-style:normal;font-weight:normal" x="190" y="359.325">N</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:start;font-family:Carlito;font-style:normal;font-weight:normal" x="334.75" y="359.325">1</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="262.375" y="367.442">SUPERVISION</text>
+  </g>
+  <g>
+    <rect style="fill: #e5e5e5" x="205" y="481.5" width="106.6" height="41.1667"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="205" y="481.5" width="106.6" height="41.1667"/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="258.3" y="504.2">CUSTOMER</text>
+  </g>
+  <g>
+    <rect style="fill: #e5e5e5" x="1181" y="480.5" width="95.75" height="41.1667"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1181" y="480.5" width="95.75" height="41.1667"/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1228.88" y="503.2">PRODUCT</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="249.5" cy="608.9" rx="35.5" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="249.5" cy="608.9" rx="35.5" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="249.5" y="610.5">Name</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="161.7" cy="662.9" rx="37.7" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="161.7" cy="662.9" rx="37.7" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="161.7" y="664.5">Fname</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="248.95" cy="662.9" rx="33.95" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="248.95" cy="662.9" rx="33.95" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="248.95" y="664.5">Minit</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="336.45" cy="664.9" rx="37.45" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="336.45" cy="664.9" rx="37.45" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="336.45" y="666.5">Lname</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="340.775" cy="601.9" rx="40.775" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="340.775" cy="601.9" rx="40.775" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="340.775" y="603.5">Address</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="162.8" cy="609.9" rx="28.8" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="162.8" cy="609.9" rx="28.8" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="162.8" y="611.5">Sex</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="105.025" cy="500.9" rx="30.025" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="105.025" cy="500.9" rx="30.025" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="105.025" y="502.5">SSN</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="95" y1="508.9" x2="115.05" y2="508.9"/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="177.407" y1="593.409" x2="239.228" y2="523.615"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="251.055" y1="590.019" x2="256.525" y2="523.624"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="326.177" y1="584.232" x2="276.12" y2="523.65"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="249.307" y1="627.898" x2="249.143" y2="643.902"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="226.071" y1="623.31" x2="185.676" y2="648.154"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="272.304" y1="623.587" x2="313.216" y2="649.936"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="136.056" y1="501.14" x2="203.993" y2="501.664"/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1355.1" cy="437.5" rx="59.1" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1355.1" cy="437.5" rx="59.1" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1355.1" y="439.1">Product_Name</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1335.88" cy="497.5" rx="32.875" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1335.88" cy="497.5" rx="32.875" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1335.88" y="499.1">Price</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1334.32" cy="559.5" rx="32.325" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1334.32" cy="559.5" rx="32.325" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1334.32" y="561.1">Aisle</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1323.63" y1="453.353" x2="1271.73" y2="479.498"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1302.06" y1="498.632" x2="1277.74" y2="499.447"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1310.53" y1="546.318" x2="1267.83" y2="522.662"/>
+  <g>
+    <polygon style="fill: #e5e5e5" points="1207,347.94 1264.4,313.5 1321.8,347.94 1264.4,382.38 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1207,347.94 1264.4,313.5 1321.8,347.94 1264.4,382.38 "/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:start;font-family:Carlito;font-style:normal;font-weight:normal" x="1268.4" y="307.5">1</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:start;font-family:Carlito;font-style:normal;font-weight:normal" x="1268.4" y="409.547">N</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1264.4" y="350.057">FOUND_IN</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1261.9,312.518 1261.9,253 1229.17,253 1229.17,210.435 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1266.9,312.518 1266.9,248 1234.17,248 1234.17,210.435 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1266.9,383.378 1266.9,433.936 1231.38,433.936 1231.38,479.495 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1261.9,383.378 1261.9,428.936 1226.38,428.936 1226.38,479.495 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1229.97" cy="571.5" rx="45.975" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1229.97" cy="571.5" rx="45.975" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1229.97" y="573.1">ProductID</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1204" y1="579.5" x2="1255.95" y2="579.5"/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1229.68" y1="552.503" x2="1229.21" y2="522.607"/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="427.725" cy="553.5" rx="64.725" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="427.725" cy="553.5" rx="64.725" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="427.725" y="555.1">Contact_Number</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="383" y1="561.5" x2="472.45" y2="561.5"/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="312.59" y1="518.559" x2="383.042" y2="539.94"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="196" y1="365.324" x2="262.974" y2="213.166"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="328.75" y1="365.324" x2="262.974" y2="213.166"/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="133.45" cy="191" rx="46.45" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="133.45" cy="191" rx="46.45" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="133.45" y="192.6">Hours/Wk</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="179.9" y1="191" x2="211.002" y2="191.593"/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1391.72" cy="191" rx="64.725" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1391.72" cy="191" rx="64.725" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="1391.72" y="192.6">Contact_Number</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1347" y1="199" x2="1436.45" y2="199"/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1326.06" y1="190.214" x2="1294.27" y2="189.833"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="930" y="711">
+    <tspan x="930" y="711">Matthew Brooker, 541670, mbrooker@cs.otago.ac.nz</tspan>
+  </text>
+  <g>
+    <rect style="fill: #e5e5e5" x="678" y="481.75" width="136.75" height="41.1667"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="678" y="481.75" width="136.75" height="41.1667"/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="746.375" y="504.45">SHOPPING_LIST</text>
+  </g>
+  <g>
+    <polygon style="fill: #e5e5e5" points="937,501.99 992.4,468.75 1047.8,501.99 992.4,535.23 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="937,501.99 992.4,468.75 1047.8,501.99 992.4,535.23 "/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:end;font-family:Carlito;font-style:normal;font-weight:normal" x="931" y="495.99">M</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:start;font-family:Carlito;font-style:normal;font-weight:normal" x="1053.8" y="495.99">N</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="992.4" y="504.107">CONTAINS</text>
+  </g>
+  <g>
+    <polygon style="fill: #e5e5e5" points="503,502.195 537.075,481.75 571.15,502.195 537.075,522.64 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="503,502.195 537.075,481.75 571.15,502.195 537.075,522.64 "/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:end;font-family:Carlito;font-style:normal;font-weight:normal" x="497" y="496.195">1</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:start;font-family:Carlito;font-style:normal;font-weight:normal" x="577.15" y="496.195">N</text>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="537.075" y="504.312">HAS</text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="814.75,502.333 875.371,502.333 875.371,501.99 935.992,501.99 "/>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1048.79,499.49 1111.89,499.49 1111.89,498.583 1179.99,498.583 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1048.79,504.49 1116.89,504.49 1116.89,503.583 1179.99,503.583 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="572.144,499.695 627.068,499.695 627.068,499.833 676.992,499.833 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="572.144,504.695 622.068,504.695 622.068,504.833 676.992,504.833 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="312.607,499.583 409.801,499.583 409.801,499.695 501.996,499.695 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="312.607,504.583 404.801,504.583 404.801,504.695 501.996,504.695 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="682.325" cy="577.05" rx="58.725" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="682.325" cy="577.05" rx="58.725" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="682.325" y="578.65">Num_Products</text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="825.65" cy="579.75" rx="43.65" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" cx="825.65" cy="579.75" rx="43.65" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="825.65" y="581.35">Total_Bill</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="697.868" y1="558.918" x2="728.111" y2="523.639"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="807.951" y1="562.465" x2="768.458" y2="523.899"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="711.23" y1="445.548" x2="733.023" y2="480.76"/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="699.75" cy="427" rx="59.75" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="699.75" cy="427" rx="59.75" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="699.75" y="428.6">Shopping_Date</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="660" y1="435" x2="739.5" y2="435"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="992.7" cy="579" rx="42.7" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="992.7" cy="579" rx="42.7" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:Carlito;font-style:normal;font-weight:normal" x="992.7" y="580.6">Quantity</text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="992.533" y1="536.227" x2="992.626" y2="560.001"/>
+</svg>

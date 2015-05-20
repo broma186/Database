@@ -1,0 +1,29 @@
+
+
+CREATE OR REPLACE PROCEDURE changeProductPrice(priceChangeId IN CHAR,
+                                                  newPrice IN NUMBER)                                                       
+AS
+  CURSOR pr IS
+    SELECT * FROM product;
+  prod pr%ROWTYPE;
+ noMatch EXCEPTION;
+            
+BEGIN
+  FOR prod IN pr LOOP
+    IF prod.productid = priceChangeId THEN
+      UPDATE product
+      SET price = newPrice
+      WHERE productid = priceChangeId;
+      DBMS_OUTPUT.PUT_LINE(prod.productid ||' '|| prod.price);
+      RETURN;
+    END IF;      
+  END LOOP;
+ 
+  RAISE noMatch;  
+  
+EXCEPTION
+  WHEN NO_DATA_FOUND THEN NULL;
+  WHEN noMatch THEN
+    DBMS_OUTPUT.PUT_LINE('The productid you entered does not exist');
+END;
+/

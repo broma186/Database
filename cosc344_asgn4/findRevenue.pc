@@ -1,0 +1,142 @@
+/* findRevenue.pc
+ * Reads pass.dat and connects to Oracle.
+ *
+ * Outputs the total number of products
+ * purchased and total revenue given a
+ * date range.
+ *
+ * Matthew Brooker, 541670.
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sqlca.h>
+#include "getresponse.c"
+
+/* Constant definitions */
+
+#define USER_LEN   20
+#define PWD_LEN    20
+#define DATE_LEN   12
+
+/* Return codes for SQL */
+
+#define SUCCESS       0
+#define NOT_LOGGED_IN -1017
+#define NOT_FOUND     1403
+
+/* Define host variables */
+
+EXEC SQL BEGIN DECLARE SECTION;
+
+  varchar  username[USER_LEN];
+  varchar  password[PWD_LEN];
+  int      h_sumquantity;
+  double   h_revenue;
+  char     h_date1[DATE_LEN];
+  char     h_date2[DATE_LEN];
+
+EXEC SQL END DECLARE SECTION;
+
+/* Function prototypes */
+
+void connect_to_oracle (void);
+void sql_error (char *msg);
+
+int main() {
+
+  /* Connect to Oracle */
+
+  connect_to_oracle();
+
+  /* Prompt for a two dates and puts them
+  *  into host variables.
+  */
+
+  printf("\nEnter the beginning date: ");
+  scanf("%s", h_date1);
+ 
+  printf("\nEnter the ending date: ");
+  scanf("%s", h_date2);
+ 
+  /* Get data from ORACLE */
+
+  EXEC SQL
+       SELECT SUM(c.quantity),SUM(c.quantity * p.price)
+       INTO :h_sumquantity, :h_revenue
+       FROM containing c, product p, shopping_list s
+       WHERE c.productid = p.productid
+       AND s.shopping_date = c.shopping_date
+       AND c.shopping_date BETWEEN TO_DATE(:h_date1, 'DD-MM-YYYY')
+       AND TO_DATE(:h_date2, 'DD-MM-YYYY');
+
+       
+  /* Print a heading and the data */
+
+  printf("\nPRODUCTS SOLD     TOTAL REVENUE\n");
+  printf("-------------     -------------\n");
+  printf("%-17d %-10.2f\n", h_sumquantity, h_revenue);
+
+  /* Disconnect from ORACLE */
+
+  EXEC SQL COMMIT WORK RELEASE;
+
+  return(0);
+}
+
+void connect_to_oracle (void) {
+
+  FILE *passfile;
+
+  /* Open pass.dat.  If not successful, print
+   * an error messge and exit. 
+   */
+
+  if (0 == (passfile = fopen("pass.dat", "r"))) {
+    printf("Cannot open pass.dat\n");
+    printf("Program exiting\n");
+    exit(-1);
+  }
+
+  /* Read the data from the file
+   * and terminate the varchar strings.
+   */
+
+  getresponse((char *)username.arr, sizeof(username.arr), passfile);
+  username.len = strlen((char *) username.arr);
+  getresponse((char *)password.arr, sizeof(password.arr), passfile);
+  password.len = strlen((char *) password.arr);
+
+  /* Close the file. */
+
+  fclose(passfile);
+
+  printf("\nConnecting to ORACLE\n");
+
+  EXEC SQL CONNECT :username IDENTIFIED BY :password;
+
+  if (NOT_LOGGED_IN == sqlca.sqlcode) {
+    printf("  Not connected\n");
+    exit(-1);
+  } else if (SUCCESS == sqlca.sqlcode) {
+    printf("  Connected to ORACLE\n");
+  } else {
+    sql_error("Error logging into Oracle");
+  }
+  return;
+}
+
+void sql_error (char *msg) {
+
+  char err_msg[200];
+  size_t buf_len, msg_len;
+
+  printf("\n%s\n", msg);
+  buf_len = sizeof(err_msg);
+  sqlglm(err_msg, &buf_len, &msg_len);
+  printf("%.*s\n", msg_len, err_msg);
+  EXEC SQL ROLLBACK RELEASE;
+  exit(1);
+}

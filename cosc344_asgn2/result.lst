@@ -1,0 +1,188 @@
+
+SQL> @q01.sql
+
+SSN       FNAME      CCONTACT_N                                                 
+--------- ---------- ----------                                                 
+345876567 Rupert     0271815678                                                 
+119982732 John       0275642231                                                 
+453428890 Joanne     0224351677                                                 
+556674390 Sarah      0221556783                                                 
+
+
+SSN       FNAME      M LNAME                BDATE     AREA                 S    
+--------- ---------- - -------------------- --------- -------------------- -    
+    SALARY      HOURS SUPERSSN         DNO                                      
+---------- ---------- --------- ----------                                      
+333445555 Earl       V Vonstrozzenburger    16-SEP-77 North Dunedin        M    
+     35000         40 123456789          1                                      
+                                                                                
+223691415 Doug       M Glatt                03-APR-83 North Dunedin        M    
+     35000         40 987654321          2                                      
+                                                                                
+239715567 Katie      S Margaret             01-JUL-95 North Dunedin        F    
+     13000         20 987654321          2                                      
+                                                                                
+
+SQL> @q02.sql
+
+SSN       SHOPPING_ FNAME      LNAME                NUM_PRODUCTS                
+--------- --------- ---------- -------------------- ------------                
+345876567 16-MAY-14 Rupert     Princeton            4                           
+345876567 20-MAY-14 Rupert     Princeton            8                           
+119982732 14-JUN-14 John       Bert                 3                           
+453428890 02-JUL-14 Joanne     Rutherford           2                           
+556674390 22-AUG-14 Sarah      Edwards              5                           
+
+SQL> @q03.sql
+
+SSN       SHOPPING_ FNAME      LNAME                PROD   QUANTITY             
+--------- --------- ---------- -------------------- ---- ----------             
+345876567 16-MAY-14 Rupert     Princeton            1016          1             
+345876567 16-MAY-14 Rupert     Princeton            1008          1             
+345876567 16-MAY-14 Rupert     Princeton            1004          2             
+345876567 20-MAY-14 Rupert     Princeton            1000          1             
+345876567 20-MAY-14 Rupert     Princeton            1007          1             
+345876567 20-MAY-14 Rupert     Princeton            1017          1             
+345876567 20-MAY-14 Rupert     Princeton            1018          1             
+345876567 20-MAY-14 Rupert     Princeton            1029          2             
+345876567 20-MAY-14 Rupert     Princeton            1030          2             
+119982732 14-JUN-14 John       Bert                 1024          1             
+119982732 14-JUN-14 John       Bert                 1025          1             
+
+SSN       SHOPPING_ FNAME      LNAME                PROD   QUANTITY             
+--------- --------- ---------- -------------------- ---- ----------             
+119982732 14-JUN-14 John       Bert                 1030          1             
+453428890 02-JUL-14 Joanne     Rutherford           1012          2             
+556674390 22-AUG-14 Sarah      Edwards              1019          1             
+556674390 22-AUG-14 Sarah      Edwards              1027          1             
+556674390 22-AUG-14 Sarah      Edwards              1011          1             
+556674390 22-AUG-14 Sarah      Edwards              1006          1             
+556674390 22-AUG-14 Sarah      Edwards              1003          1             
+
+18 rows selected.
+
+SQL> @q04.sql
+
+SSN       FNAME      LNAME                                                      
+--------- ---------- --------------------                                       
+987688888 Rose       Petersond                                                  
+333445555 Earl       Vonstrozzenburger                                          
+223691415 Doug       Glatt                                                      
+239715567 Katie      Margaret                                                   
+303012889 Jessica    Stevens                                                    
+887722669 Sophie     Smith                                                      
+999887777 Alicia     Zelaya                                                     
+666884444 Ramesh     Narayan                                                    
+158345766 Joyce      English                                                    
+453453453 Ahmad      Jabbar                                                     
+992134455 James      Irnbru                                                     
+
+11 rows selected.
+
+SQL> @q05.sql
+
+FNAME      SSN       LNAME                    SALARY                            
+---------- --------- -------------------- ----------                            
+Tim        123456789 Jones                     45000                            
+Tom        888665555 Johnson                   45000                            
+
+SQL> @q06.sql
+
+SSN       FNAME      LNAME                BDATE                                 
+--------- ---------- -------------------- ---------                             
+987688888 Rose       Petersond            05-MAY-89                             
+333445555 Earl       Vonstrozzenburger    16-SEP-77                             
+987654321 Pete       Mcgee                20-SEP-65                             
+223691415 Doug       Glatt                03-APR-83                             
+999887777 Alicia     Zelaya               19-JUL-68                             
+666884444 Ramesh     Narayan              15-SEP-62                             
+158345766 Joyce      English              31-JUL-72                             
+453453453 Ahmad      Jabbar               29-MAR-69                             
+992134455 James      Irnbru               10-NOV-37                             
+
+9 rows selected.
+
+SQL> @q07.sql
+
+       DNO   COUNT(*)                                                           
+---------- ----------                                                           
+         1          2                                                           
+         2          3                                                           
+         4          3                                                           
+         5          3                                                           
+         3          1                                                           
+
+
+SQL> @q08.sql
+
+       DNO   COUNT(*)                                                           
+---------- ----------                                                           
+         4          3                                                           
+         5          3                                                           
+         3          1                                                           
+
+SQL> @q09.sql
+
+SSN       FNAME      M LNAME                CCONTACT_N AREA                 S   
+--------- ---------- - -------------------- ---------- -------------------- -   
+119982732 John       R Bert                 0275642231 North Dunedin        M   
+345876567 Rupert     P Princeton            0271815678 Roslyn               M   
+453428890 Joanne     G Rutherford           0224351677 South Dunedin        F   
+556674390 Sarah      L Edwards              0221556783 Mornington           F   
+
+SQL> @q10.sql
+
+PROD PRODUCT_NAME              PRICE        DNO                                 
+---- -------------------- ---------- ----------                                 
+1000 Flyspray                    7.5          3                                 
+1002 Frozen Pizza                8.5          4                                 
+1003 6 Pack Beer                  14          5                                 
+1005 Stawberries                6.99          1                                 
+1007 Carrots 1kg                5.99          1                                 
+1008 Chicken Breasts           13.99          2                                 
+1009 Rump Steak                 5.99          2                                 
+1010 Pork Sausages 1kg          9.99          2                                 
+1012 Hash Browns                 8.5          4                                 
+1021 Butter                     5.99          4                                 
+1029 Container                   5.5          3                                 
+
+11 rows selected.
+
+SQL> @q11.sql
+
+FNAME      LNAME                                                                
+---------- --------------------                                                 
+Katie      Margaret                                                             
+Doug       Glatt                                                                
+Sophie     Smith                                                                
+Rose       Petersond                                                            
+Alicia     Zelaya                                                               
+James      Irnbru                                                               
+Jessica    Stevens                                                              
+Ahmad      Jabbar                                                               
+Earl       Vonstrozzenburger                                                    
+Ramesh     Narayan                                                              
+
+10 rows selected.
+
+SQL> @q12.sql
+
+COUNT(SHOPPING_DATE)                                                            
+--------------------                                                            
+                   5                                                            
+
+SQL> @q13.sql
+
+MIN(PRICE)                                                                      
+----------                                                                      
+      5.99                                                                      
+
+SQL> @q14.sql
+
+1 row deleted.
+
+SQL> @q15.sql
+
+1 row updated.
+
+SQL> spool off
